@@ -3,7 +3,7 @@ package Basic;
 import java.util.Scanner;
 
 public class SetBits {
-	/*public static int countOne(int number){
+	public static int countOne(int number){
 		int count = 0; 
 		for(int i =0; i<32; i++){ 
 			if( (number&1) == 1) {
@@ -21,7 +21,7 @@ public class SetBits {
 			number &= number-1; 
 		} 
 		return count; 
-	}*/
+	}
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
