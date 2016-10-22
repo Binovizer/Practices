@@ -14,7 +14,6 @@ public class AndGate {
 				arr[i] = scan.nextInt();
 			}
 			Arrays.sort(arr);
-			
 			if(arr[0]==0){
 				System.out.println("0");
 			}else{

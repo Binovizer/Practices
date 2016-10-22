@@ -15,14 +15,8 @@ public class ReArrangingArray {
 				list[i] = scan.nextInt();
 			}
 			Arrays.sort(list);
-			int loop = 1;
-			if(l%2==0){
-				loop = l/2-1;
-			}else{
-				loop = l/2;
-			}
 			int i = 1;
-			for(int z=1;z<=loop;z++){
+			for(int z=1;z<(l+1)/2;z++){
 				int temp = list[l-1];
 				for(int k=l-2;k>=i;k--){
 					list[k+1] = list[k];

@@ -3,11 +3,18 @@ package Basic;
 import java.util.Scanner;
 
 public class MaxArea {
+	public static double sqrt(double number){
+		double x = number;
+		double y = 1;
+		while(x>y){
+			x = (x+y)/2;
+			y = number/x;
+		}
+		return x;
+	}
 	public static double sqrt(int number) {
-		double t;
-	 
-		double squareRoot = number / 2;
-	 
+		double t; 
+		double squareRoot = number / 2; 
 		do {
 			t = squareRoot;
 			squareRoot = (t + (number / t)) / 2;
